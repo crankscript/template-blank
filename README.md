@@ -27,3 +27,5 @@ When the `--background` flag is used, the simulator will not be brought to the f
 ```bash
 npm run simulator -- --watch --background
 ```
+
+Read more about using `--watch` in Linux and Windows [here](https://github.com/crankscript/crankscript?tab=readme-ov-file#a-note-about-platform-support).
