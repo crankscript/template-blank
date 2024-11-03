@@ -10,9 +10,9 @@
         "simulator": "crankscript simulator"
     },
     "dependencies": {
-        "@crankscript/core": "^0.1.5",
+        "@crankscript/core": "^0.1.6",
         "@crankscript/types": "^0.4.12",
-        "crankscript": "^0.10.6"
+        "crankscript": "^0.10.8"
     },
     "devDependencies": {
         "prettier": "3.3.3"
