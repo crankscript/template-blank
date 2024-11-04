@@ -1,5 +1,7 @@
 # Crankscript blank template
 
+![SDK Supported](https://img.shields.io/badge/SDK-2.6.0-FFC733)
+
 This is a simple template for a Crankscript project.
 
 ## Quick start
