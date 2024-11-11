@@ -12,7 +12,7 @@
         "module": "Node16"
     },
     "files": [
-        "node_modules/@crankscript/types/types/2.5.0.d.ts"
+        "node_modules/@crankscript/types/types/2.6.0.d.ts"
     ],
     "include": [
         "src/**/*.ts"
