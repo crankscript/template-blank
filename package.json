@@ -11,8 +11,8 @@
     },
     "dependencies": {
         "@crankscript/core": "^0.2.2",
-        "@crankscript/types": "^0.5.1",
-        "crankscript": "^0.11.1"
+        "@crankscript/types": "^0.5.2",
+        "crankscript": "^0.11.2"
     },
     "devDependencies": {
         "prettier": "3.3.3"
