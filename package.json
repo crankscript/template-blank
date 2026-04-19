@@ -19,5 +19,10 @@
     },
     "peerDependencies": {
         "lua-types": "*"
+    },
+    "overrides": {
+        "@inkjs/ui": {
+            "ink": "^6.3.0"
+        }
     }
 }
