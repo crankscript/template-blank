@@ -1,18 +1,12 @@
-import {
-    PlaydateColor,
-    PlaydateDrawMode,
-    PlaydateFontVariant,
-} from "@crankscript/core";
-
 const helloString = "Hello from crankscript";
 const [width, height] = playdate.graphics.getTextSize(helloString);
 
 playdate.update = () => {
-    playdate.graphics.clear(PlaydateColor.Black);
+    playdate.graphics.clear(playdate.graphics.kColorBlack);
     playdate.graphics.setFont(
-        playdate.graphics.getSystemFont(PlaydateFontVariant.Bold),
+        playdate.graphics.getSystemFont(playdate.graphics.font.kVariantBold),
     );
-    playdate.graphics.setImageDrawMode(PlaydateDrawMode.FillWhite);
+    playdate.graphics.setImageDrawMode(playdate.graphics.kDrawModeFillWhite);
     playdate.graphics.drawText(
         helloString,
         (400 - width) / 2,
